@@ -58,6 +58,8 @@ zookeeper  step by step
 		java -cp zookeeper.jar:lib/slf4j-api-1.6.1.jar:lib/slf4j-log4j12-1.6.1.jar:lib/log4j-1.2.15.jar:conf:src/java/lib/jline-0.9.94.jar \ org.apache.zookeeper.ZooKeeperMain -server 127.0.0.1:2181
 	8 结束
 	  后记：如果开发阶段想进行单机测试，官方也有文档说明，网址为：http://zookeeper.apache.org/doc/r3.4.6/zookeeperStarted.html#sc_InstallingSingleMode
+	  zookeeper编程：
+	http://zookeeper.apache.org/doc/r3.4.6/zookeeperProgrammers.html#ch_programStructureWithExample
 		
  	
 
