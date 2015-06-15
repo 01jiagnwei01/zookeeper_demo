@@ -44,6 +44,8 @@ zookeeper  step by step
 		server.3=zoo3:2888:3888
 	每个参数的意思在下面网址可见。http://zookeeper.apache.org/doc/r3.4.6/zookeeperAdmin.html#sc_configuration。
 	这里简单讲解一下,ZooKeeper集成中每台服务器都需要知道其他所有服务器的存在。使用server.id=host:port:port.来实现这个目标。
+	端口1的作用是：集群成员的信息交换
+	端口2的作用是：在leader挂掉时专门用来进行选举leader所用
 	通过配置文件里dataDir指定的目录里创建一个名称为 myid的文件，通过该文件实现把本机的id通知其他服务器。
 	5： myid文件内只允许有该机器的id，没有其他文字。例如id为1的服务器，myid文件内只有文字1.注意集成环境中id是唯一的，允许值为1-255.
 	6: 启动zookpeer.

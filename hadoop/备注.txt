@@ -1,0 +1,3 @@
+参考网址：
+  windows平台
+  	http://wiki.apache.org/hadoop/Hadoop2OnWindows
