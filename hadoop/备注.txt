@@ -3,5 +3,9 @@
 	http://hadoop.apache.org/
   windows平台
   	http://wiki.apache.org/hadoop/Hadoop2OnWindows
-  	
-  	http://www.aboutyun.com/blog-61-328.html
+上面这个尽管是官网文件，但是没有成功。我下面转到linux环境测试单节点
+  	http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html
+ 
+ 	虚拟机使用ubuntu
+ 	ubuntu官网：
+ 
